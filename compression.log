@@ -1,0 +1,489 @@
+2025-03-26 15:08:13,114 INFO: ====== 开始压缩流程 ======
+2025-03-26 15:08:13,115 INFO: 正在处理文件: customer.tbl
+2025-03-26 15:08:13,115 WARNING: 检测到动态列数，尝试修复...
+2025-03-26 15:08:13,115 INFO: 自动切换分隔符为: '|'
+2025-03-26 15:08:13,115 INFO: 检测到稳定列数: 8
+2025-03-26 15:08:13,648 INFO: Parquet schema初始化完成: col_0: dictionary<values=string, indices=int32, ordered=0>
+col_1: dictionary<values=string, indices=int32, ordered=0>
+col_2: dictionary<values=string, indices=int32, ordered=0>
+col_3: dictionary<values=string, indices=int8, ordered=0>
+col_4: dictionary<values=string, indices=int32, ordered=0>
+col_5: dictionary<values=string, indices=int32, ordered=0>
+col_6: dictionary<values=string, indices=int8, ordered=0>
+col_7: dictionary<values=string, indices=int32, ordered=0>
+-- schema metadata --
+pandas: '{"index_columns": [], "column_indexes": [], "columns": [{"name":' + 1282
+2025-03-26 15:08:16,022 INFO: 列式存储文件生成: compress\customer.parquet
+2025-03-26 15:08:25,180 INFO: ZSTD压缩完成 - 原始大小: 53967789 bytes, 压缩率: 72.64%
+2025-03-26 15:08:25,193 INFO: 压缩完成: compress\customer.zstd
+2025-03-26 15:08:25,193 INFO: 正在处理文件: part.tbl
+2025-03-26 15:08:25,204 WARNING: 检测到动态列数，尝试修复...
+2025-03-26 15:08:25,204 INFO: 自动切换分隔符为: '|'
+2025-03-26 15:08:25,205 INFO: 检测到稳定列数: 9
+2025-03-26 15:08:25,588 INFO: Parquet schema初始化完成: col_0: dictionary<values=string, indices=int32, ordered=0>
+col_1: dictionary<values=string, indices=int32, ordered=0>
+col_2: dictionary<values=string, indices=int8, ordered=0>
+col_3: dictionary<values=string, indices=int8, ordered=0>
+col_4: dictionary<values=string, indices=int16, ordered=0>
+col_5: dictionary<values=string, indices=int8, ordered=0>
+col_6: dictionary<values=string, indices=int8, ordered=0>
+col_7: dictionary<values=string, indices=int16, ordered=0>
+col_8: dictionary<values=string, indices=int32, ordered=0>
+-- schema metadata --
+pandas: '{"index_columns": [], "column_indexes": [], "columns": [{"name":' + 1423
+2025-03-26 15:08:28,040 INFO: 列式存储文件生成: compress\part.parquet
+2025-03-26 15:08:39,271 INFO: ZSTD压缩完成 - 原始大小: 29614285 bytes, 压缩率: 75.37%
+2025-03-26 15:08:39,277 INFO: 压缩完成: compress\part.zstd
+2025-03-26 15:08:39,277 INFO: 正在处理文件: partsupp.tbl
+2025-03-26 15:08:39,278 WARNING: 检测到动态列数，尝试修复...
+2025-03-26 15:08:39,278 INFO: 自动切换分隔符为: '|'
+2025-03-26 15:08:39,278 INFO: 检测到稳定列数: 5
+2025-03-26 15:08:39,593 INFO: Parquet schema初始化完成: col_0: dictionary<values=string, indices=int16, ordered=0>
+col_1: dictionary<values=string, indices=int16, ordered=0>
+col_2: dictionary<values=string, indices=int16, ordered=0>
+col_3: dictionary<values=string, indices=int32, ordered=0>
+col_4: dictionary<values=string, indices=int32, ordered=0>
+-- schema metadata --
+pandas: '{"index_columns": [], "column_indexes": [], "columns": [{"name":' + 834
+2025-03-26 15:08:49,061 INFO: 列式存储文件生成: compress\partsupp.parquet
+2025-03-26 15:09:08,749 INFO: ZSTD压缩完成 - 原始大小: 243351656 bytes, 压缩率: 82.61%
+2025-03-26 15:09:08,791 INFO: 压缩完成: compress\partsupp.zstd
+2025-03-26 15:09:08,791 INFO: 正在处理文件: region.tbl
+2025-03-26 15:09:08,791 INFO: 自动切换分隔符为: '|'
+2025-03-26 15:09:08,792 INFO: 检测到稳定列数: 3
+2025-03-26 15:09:08,795 INFO: Parquet schema初始化完成: col_0: dictionary<values=string, indices=int8, ordered=0>
+col_1: dictionary<values=string, indices=int8, ordered=0>
+col_2: dictionary<values=string, indices=int8, ordered=0>
+-- schema metadata --
+pandas: '{"index_columns": [], "column_indexes": [], "columns": [{"name":' + 516
+2025-03-26 15:09:08,795 INFO: 列式存储文件生成: compress\region.parquet
+2025-03-26 15:09:09,471 INFO: ZSTD压缩完成 - 原始大小: 3127 bytes, 压缩率: 60.47%
+2025-03-26 15:09:09,473 INFO: 压缩完成: compress\region.zstd
+2025-03-26 15:09:09,473 INFO: 正在处理文件: supplier.tbl
+2025-03-26 15:09:09,483 WARNING: 检测到动态列数，尝试修复...
+2025-03-26 15:09:09,483 INFO: 自动切换分隔符为: '|'
+2025-03-26 15:09:09,483 INFO: 检测到稳定列数: 7
+2025-03-26 15:09:09,656 INFO: Parquet schema初始化完成: col_0: dictionary<values=string, indices=int16, ordered=0>
+col_1: dictionary<values=string, indices=int16, ordered=0>
+col_2: dictionary<values=string, indices=int16, ordered=0>
+col_3: dictionary<values=string, indices=int8, ordered=0>
+col_4: dictionary<values=string, indices=int16, ordered=0>
+col_5: dictionary<values=string, indices=int16, ordered=0>
+col_6: dictionary<values=string, indices=int16, ordered=0>
+-- schema metadata --
+pandas: '{"index_columns": [], "column_indexes": [], "columns": [{"name":' + 1135
+2025-03-26 15:09:09,658 INFO: 列式存储文件生成: compress\supplier.parquet
+2025-03-26 15:09:11,083 INFO: ZSTD压缩完成 - 原始大小: 3355931 bytes, 压缩率: 69.61%
+2025-03-26 15:09:11,085 INFO: 压缩完成: compress\supplier.zstd
+2025-03-26 15:09:11,085 INFO: ====== 开始解压流程 ======
+2025-03-26 15:09:11,190 INFO: 解压完成: compress\customer.zstd -> compress\customer.parquet
+2025-03-26 15:09:12,665 INFO: 成功转换 Parquet 到文本: decompress\customer.tbl
+2025-03-26 15:09:12,682 INFO: 解压完成: decompress\customer.tbl
+2025-03-26 15:09:12,728 INFO: 解压完成: compress\part.zstd -> compress\part.parquet
+2025-03-26 15:09:13,980 INFO: 成功转换 Parquet 到文本: decompress\part.tbl
+2025-03-26 15:09:13,984 INFO: 解压完成: decompress\part.tbl
+2025-03-26 15:09:14,382 INFO: 解压完成: compress\partsupp.zstd -> compress\partsupp.parquet
+2025-03-26 15:09:19,244 INFO: 成功转换 Parquet 到文本: decompress\partsupp.tbl
+2025-03-26 15:09:19,263 INFO: 解压完成: decompress\partsupp.tbl
+2025-03-26 15:09:19,264 INFO: 解压完成: compress\region.zstd -> compress\region.parquet
+2025-03-26 15:09:19,266 INFO: 成功转换 Parquet 到文本: decompress\region.tbl
+2025-03-26 15:09:19,266 INFO: 解压完成: decompress\region.tbl
+2025-03-26 15:09:19,272 INFO: 解压完成: compress\supplier.zstd -> compress\supplier.parquet
+2025-03-26 15:09:19,352 INFO: 成功转换 Parquet 到文本: decompress\supplier.tbl
+2025-03-26 15:09:19,355 INFO: 解压完成: decompress\supplier.tbl
+2025-03-26 15:14:59,859 INFO: ====== 开始压缩流程 ======
+2025-03-26 15:14:59,859 INFO: 正在处理文件: customer.tbl
+2025-03-26 15:14:59,859 WARNING: 检测到动态列数，尝试修复...
+2025-03-26 15:14:59,859 INFO: 自动切换分隔符为: '|'
+2025-03-26 15:14:59,859 INFO: 检测到稳定列数: 8
+2025-03-26 15:15:00,370 INFO: Parquet schema初始化完成: col_0: dictionary<values=string, indices=int32, ordered=0>
+col_1: dictionary<values=string, indices=int32, ordered=0>
+col_2: dictionary<values=string, indices=int32, ordered=0>
+col_3: dictionary<values=string, indices=int8, ordered=0>
+col_4: dictionary<values=string, indices=int32, ordered=0>
+col_5: dictionary<values=string, indices=int32, ordered=0>
+col_6: dictionary<values=string, indices=int8, ordered=0>
+col_7: dictionary<values=string, indices=int32, ordered=0>
+-- schema metadata --
+pandas: '{"index_columns": [], "column_indexes": [], "columns": [{"name":' + 1282
+2025-03-26 15:15:02,828 INFO: 列式存储文件生成: compress\customer.parquet
+2025-03-26 15:15:11,573 INFO: ZSTD压缩完成 - 原始大小: 53967789 bytes, 压缩率: 72.64%
+2025-03-26 15:15:11,588 INFO: 压缩完成: compress\customer.zstd
+2025-03-26 15:15:11,588 INFO: 文件 customer.tbl 压缩耗时: 11.73秒
+2025-03-26 15:15:11,588 INFO: 正在处理文件: part.tbl
+2025-03-26 15:15:11,588 WARNING: 检测到动态列数，尝试修复...
+2025-03-26 15:15:11,588 INFO: 自动切换分隔符为: '|'
+2025-03-26 15:15:11,588 INFO: 检测到稳定列数: 9
+2025-03-26 15:15:12,017 INFO: Parquet schema初始化完成: col_0: dictionary<values=string, indices=int32, ordered=0>
+col_1: dictionary<values=string, indices=int32, ordered=0>
+col_2: dictionary<values=string, indices=int8, ordered=0>
+col_3: dictionary<values=string, indices=int8, ordered=0>
+col_4: dictionary<values=string, indices=int16, ordered=0>
+col_5: dictionary<values=string, indices=int8, ordered=0>
+col_6: dictionary<values=string, indices=int8, ordered=0>
+col_7: dictionary<values=string, indices=int16, ordered=0>
+col_8: dictionary<values=string, indices=int32, ordered=0>
+-- schema metadata --
+pandas: '{"index_columns": [], "column_indexes": [], "columns": [{"name":' + 1423
+2025-03-26 15:15:14,913 INFO: 列式存储文件生成: compress\part.parquet
+2025-03-26 15:15:27,812 INFO: ZSTD压缩完成 - 原始大小: 29614285 bytes, 压缩率: 75.37%
+2025-03-26 15:15:27,820 INFO: 压缩完成: compress\part.zstd
+2025-03-26 15:15:27,820 INFO: 文件 part.tbl 压缩耗时: 16.23秒
+2025-03-26 15:15:27,820 INFO: 正在处理文件: partsupp.tbl
+2025-03-26 15:15:27,820 WARNING: 检测到动态列数，尝试修复...
+2025-03-26 15:15:27,820 INFO: 自动切换分隔符为: '|'
+2025-03-26 15:15:27,820 INFO: 检测到稳定列数: 5
+2025-03-26 15:15:28,260 INFO: Parquet schema初始化完成: col_0: dictionary<values=string, indices=int16, ordered=0>
+col_1: dictionary<values=string, indices=int16, ordered=0>
+col_2: dictionary<values=string, indices=int16, ordered=0>
+col_3: dictionary<values=string, indices=int32, ordered=0>
+col_4: dictionary<values=string, indices=int32, ordered=0>
+-- schema metadata --
+pandas: '{"index_columns": [], "column_indexes": [], "columns": [{"name":' + 834
+2025-03-26 15:15:39,813 INFO: 列式存储文件生成: compress\partsupp.parquet
+2025-03-26 15:15:59,270 INFO: ZSTD压缩完成 - 原始大小: 243351656 bytes, 压缩率: 82.61%
+2025-03-26 15:15:59,311 INFO: 压缩完成: compress\partsupp.zstd
+2025-03-26 15:15:59,311 INFO: 文件 partsupp.tbl 压缩耗时: 31.49秒
+2025-03-26 15:15:59,311 INFO: 正在处理文件: region.tbl
+2025-03-26 15:15:59,311 INFO: 自动切换分隔符为: '|'
+2025-03-26 15:15:59,311 INFO: 检测到稳定列数: 3
+2025-03-26 15:15:59,314 INFO: Parquet schema初始化完成: col_0: dictionary<values=string, indices=int8, ordered=0>
+col_1: dictionary<values=string, indices=int8, ordered=0>
+col_2: dictionary<values=string, indices=int8, ordered=0>
+-- schema metadata --
+pandas: '{"index_columns": [], "column_indexes": [], "columns": [{"name":' + 516
+2025-03-26 15:15:59,315 INFO: 列式存储文件生成: compress\region.parquet
+2025-03-26 15:16:00,002 INFO: ZSTD压缩完成 - 原始大小: 3127 bytes, 压缩率: 60.47%
+2025-03-26 15:16:00,005 INFO: 压缩完成: compress\region.zstd
+2025-03-26 15:16:00,005 INFO: 文件 region.tbl 压缩耗时: 0.69秒
+2025-03-26 15:16:00,005 INFO: 正在处理文件: supplier.tbl
+2025-03-26 15:16:00,006 WARNING: 检测到动态列数，尝试修复...
+2025-03-26 15:16:00,006 INFO: 自动切换分隔符为: '|'
+2025-03-26 15:16:00,006 INFO: 检测到稳定列数: 7
+2025-03-26 15:16:00,188 INFO: Parquet schema初始化完成: col_0: dictionary<values=string, indices=int16, ordered=0>
+col_1: dictionary<values=string, indices=int16, ordered=0>
+col_2: dictionary<values=string, indices=int16, ordered=0>
+col_3: dictionary<values=string, indices=int8, ordered=0>
+col_4: dictionary<values=string, indices=int16, ordered=0>
+col_5: dictionary<values=string, indices=int16, ordered=0>
+col_6: dictionary<values=string, indices=int16, ordered=0>
+-- schema metadata --
+pandas: '{"index_columns": [], "column_indexes": [], "columns": [{"name":' + 1135
+2025-03-26 15:16:00,188 INFO: 列式存储文件生成: compress\supplier.parquet
+2025-03-26 15:16:01,593 INFO: ZSTD压缩完成 - 原始大小: 3355931 bytes, 压缩率: 69.61%
+2025-03-26 15:16:01,596 INFO: 压缩完成: compress\supplier.zstd
+2025-03-26 15:16:01,596 INFO: 文件 supplier.tbl 压缩耗时: 1.59秒
+2025-03-26 15:16:01,596 INFO: 压缩流程总耗时: 61.74秒
+2025-03-26 15:16:01,596 INFO: ====== 开始解压流程 ======
+2025-03-26 15:16:01,685 INFO: 解压完成: compress\customer.zstd -> compress\customer.parquet
+2025-03-26 15:16:02,942 INFO: 成功转换 Parquet 到文本: decompress\customer.tbl
+2025-03-26 15:16:02,950 INFO: 解压完成: decompress\customer.tbl
+2025-03-26 15:16:02,996 INFO: 解压完成: compress\part.zstd -> compress\part.parquet
+2025-03-26 15:16:04,094 INFO: 成功转换 Parquet 到文本: decompress\part.tbl
+2025-03-26 15:16:04,099 INFO: 解压完成: decompress\part.tbl
+2025-03-26 15:16:04,405 INFO: 解压完成: compress\partsupp.zstd -> compress\partsupp.parquet
+2025-03-26 15:16:08,933 INFO: 成功转换 Parquet 到文本: decompress\partsupp.tbl
+2025-03-26 15:16:08,951 INFO: 解压完成: decompress\partsupp.tbl
+2025-03-26 15:16:08,952 INFO: 解压完成: compress\region.zstd -> compress\region.parquet
+2025-03-26 15:16:08,955 INFO: 成功转换 Parquet 到文本: decompress\region.tbl
+2025-03-26 15:16:08,955 INFO: 解压完成: decompress\region.tbl
+2025-03-26 15:16:08,961 INFO: 解压完成: compress\supplier.zstd -> compress\supplier.parquet
+2025-03-26 15:16:09,036 INFO: 成功转换 Parquet 到文本: decompress\supplier.tbl
+2025-03-26 15:16:09,039 INFO: 解压完成: decompress\supplier.tbl
+2025-03-29 08:24:02,414 INFO: ====== 开始压缩流程 ======
+2025-03-29 08:24:02,418 INFO: 正在处理文件: customer.tbl
+2025-03-29 08:24:02,419 WARNING: 检测到动态列数，尝试修复...
+2025-03-29 08:24:02,419 INFO: 自动切换分隔符为: '|'
+2025-03-29 08:24:02,419 INFO: 检测到稳定列数: 8
+2025-03-29 08:24:02,986 INFO: Parquet schema初始化完成: col_0: dictionary<values=string, indices=int32, ordered=0>
+col_1: dictionary<values=string, indices=int32, ordered=0>
+col_2: dictionary<values=string, indices=int32, ordered=0>
+col_3: dictionary<values=string, indices=int8, ordered=0>
+col_4: dictionary<values=string, indices=int32, ordered=0>
+col_5: dictionary<values=string, indices=int32, ordered=0>
+col_6: dictionary<values=string, indices=int8, ordered=0>
+col_7: dictionary<values=string, indices=int32, ordered=0>
+-- schema metadata --
+pandas: '{"index_columns": [], "column_indexes": [], "columns": [{"name":' + 1282
+2025-03-29 08:24:05,652 INFO: 列式存储文件生成: compress\customer.parquet
+2025-03-29 08:24:14,239 INFO: ZSTD压缩完成 - 原始大小: 53967789 bytes, 压缩率: 72.64%
+2025-03-29 08:24:14,248 INFO: 压缩完成: compress\customer.zstd
+2025-03-29 08:24:14,248 INFO: 文件 customer.tbl 压缩耗时: 11.83秒
+2025-03-29 08:24:14,248 INFO: 正在处理文件: part.tbl
+2025-03-29 08:24:14,249 WARNING: 检测到动态列数，尝试修复...
+2025-03-29 08:24:14,249 INFO: 自动切换分隔符为: '|'
+2025-03-29 08:24:14,249 INFO: 检测到稳定列数: 9
+2025-03-29 08:24:14,629 INFO: Parquet schema初始化完成: col_0: dictionary<values=string, indices=int32, ordered=0>
+col_1: dictionary<values=string, indices=int32, ordered=0>
+col_2: dictionary<values=string, indices=int8, ordered=0>
+col_3: dictionary<values=string, indices=int8, ordered=0>
+col_4: dictionary<values=string, indices=int16, ordered=0>
+col_5: dictionary<values=string, indices=int8, ordered=0>
+col_6: dictionary<values=string, indices=int8, ordered=0>
+col_7: dictionary<values=string, indices=int16, ordered=0>
+col_8: dictionary<values=string, indices=int32, ordered=0>
+-- schema metadata --
+pandas: '{"index_columns": [], "column_indexes": [], "columns": [{"name":' + 1423
+2025-03-29 08:24:17,083 INFO: 列式存储文件生成: compress\part.parquet
+2025-03-29 08:24:29,796 INFO: ZSTD压缩完成 - 原始大小: 29614285 bytes, 压缩率: 75.37%
+2025-03-29 08:24:29,802 INFO: 压缩完成: compress\part.zstd
+2025-03-29 08:24:29,802 INFO: 文件 part.tbl 压缩耗时: 15.55秒
+2025-03-29 08:24:29,802 INFO: 正在处理文件: partsupp.tbl
+2025-03-29 08:24:29,804 WARNING: 检测到动态列数，尝试修复...
+2025-03-29 08:24:29,804 INFO: 自动切换分隔符为: '|'
+2025-03-29 08:24:29,804 INFO: 检测到稳定列数: 5
+2025-03-29 08:24:30,151 INFO: Parquet schema初始化完成: col_0: dictionary<values=string, indices=int16, ordered=0>
+col_1: dictionary<values=string, indices=int16, ordered=0>
+col_2: dictionary<values=string, indices=int16, ordered=0>
+col_3: dictionary<values=string, indices=int32, ordered=0>
+col_4: dictionary<values=string, indices=int32, ordered=0>
+-- schema metadata --
+pandas: '{"index_columns": [], "column_indexes": [], "columns": [{"name":' + 834
+2025-03-29 08:24:39,965 INFO: 列式存储文件生成: compress\partsupp.parquet
+2025-03-29 08:25:00,191 INFO: ZSTD压缩完成 - 原始大小: 243351656 bytes, 压缩率: 82.61%
+2025-03-29 08:25:00,237 INFO: 压缩完成: compress\partsupp.zstd
+2025-03-29 08:25:00,237 INFO: 文件 partsupp.tbl 压缩耗时: 30.44秒
+2025-03-29 08:25:00,237 INFO: 正在处理文件: region.tbl
+2025-03-29 08:25:00,238 INFO: 自动切换分隔符为: '|'
+2025-03-29 08:25:00,238 INFO: 检测到稳定列数: 3
+2025-03-29 08:25:00,242 INFO: Parquet schema初始化完成: col_0: dictionary<values=string, indices=int8, ordered=0>
+col_1: dictionary<values=string, indices=int8, ordered=0>
+col_2: dictionary<values=string, indices=int8, ordered=0>
+-- schema metadata --
+pandas: '{"index_columns": [], "column_indexes": [], "columns": [{"name":' + 516
+2025-03-29 08:25:00,242 INFO: 列式存储文件生成: compress\region.parquet
+2025-03-29 08:25:00,937 INFO: ZSTD压缩完成 - 原始大小: 3127 bytes, 压缩率: 60.47%
+2025-03-29 08:25:00,940 INFO: 压缩完成: compress\region.zstd
+2025-03-29 08:25:00,940 INFO: 文件 region.tbl 压缩耗时: 0.70秒
+2025-03-29 08:25:00,941 INFO: 正在处理文件: supplier.tbl
+2025-03-29 08:25:00,950 WARNING: 检测到动态列数，尝试修复...
+2025-03-29 08:25:00,950 INFO: 自动切换分隔符为: '|'
+2025-03-29 08:25:00,950 INFO: 检测到稳定列数: 7
+2025-03-29 08:25:01,121 INFO: Parquet schema初始化完成: col_0: dictionary<values=string, indices=int16, ordered=0>
+col_1: dictionary<values=string, indices=int16, ordered=0>
+col_2: dictionary<values=string, indices=int16, ordered=0>
+col_3: dictionary<values=string, indices=int8, ordered=0>
+col_4: dictionary<values=string, indices=int16, ordered=0>
+col_5: dictionary<values=string, indices=int16, ordered=0>
+col_6: dictionary<values=string, indices=int16, ordered=0>
+-- schema metadata --
+pandas: '{"index_columns": [], "column_indexes": [], "columns": [{"name":' + 1135
+2025-03-29 08:25:01,121 INFO: 列式存储文件生成: compress\supplier.parquet
+2025-03-29 08:25:02,464 INFO: ZSTD压缩完成 - 原始大小: 3355931 bytes, 压缩率: 69.61%
+2025-03-29 08:25:02,467 INFO: 压缩完成: compress\supplier.zstd
+2025-03-29 08:25:02,467 INFO: 文件 supplier.tbl 压缩耗时: 1.53秒
+2025-03-29 08:25:02,467 INFO: 压缩流程总耗时: 60.05秒
+2025-03-29 08:25:02,467 INFO: ====== 开始解压流程 ======
+2025-03-29 08:25:02,567 INFO: 解压完成: compress\customer.zstd -> compress\customer.parquet
+2025-03-29 08:25:04,103 INFO: 成功转换 Parquet 到文本: decompress\customer.tbl
+2025-03-29 08:25:04,123 INFO: 解压完成: decompress\customer.tbl
+2025-03-29 08:25:04,176 INFO: 解压完成: compress\part.zstd -> compress\part.parquet
+2025-03-29 08:25:05,539 INFO: 成功转换 Parquet 到文本: decompress\part.tbl
+2025-03-29 08:25:05,543 INFO: 解压完成: decompress\part.tbl
+2025-03-29 08:25:05,875 INFO: 解压完成: compress\partsupp.zstd -> compress\partsupp.parquet
+2025-03-29 08:25:10,893 INFO: 成功转换 Parquet 到文本: decompress\partsupp.tbl
+2025-03-29 08:25:10,915 INFO: 解压完成: decompress\partsupp.tbl
+2025-03-29 08:25:10,916 INFO: 解压完成: compress\region.zstd -> compress\region.parquet
+2025-03-29 08:25:10,918 INFO: 成功转换 Parquet 到文本: decompress\region.tbl
+2025-03-29 08:25:10,918 INFO: 解压完成: decompress\region.tbl
+2025-03-29 08:25:10,923 INFO: 解压完成: compress\supplier.zstd -> compress\supplier.parquet
+2025-03-29 08:25:11,003 INFO: 成功转换 Parquet 到文本: decompress\supplier.tbl
+2025-03-29 08:25:11,006 INFO: 解压完成: decompress\supplier.tbl
+2025-04-15 14:59:22,479 INFO: ====== 开始压缩流程 ======
+2025-04-15 14:59:22,480 INFO: 正在处理文件: customer.tbl
+2025-04-15 14:59:22,480 WARNING: 检测到动态列数，尝试修复...
+2025-04-15 14:59:22,480 INFO: 自动切换分隔符为: '|'
+2025-04-15 14:59:22,480 INFO: 检测到稳定列数: 8
+2025-04-15 14:59:22,978 INFO: Parquet schema初始化完成: col_0: dictionary<values=string, indices=int32, ordered=0>
+col_1: dictionary<values=string, indices=int32, ordered=0>
+col_2: dictionary<values=string, indices=int32, ordered=0>
+col_3: dictionary<values=string, indices=int8, ordered=0>
+col_4: dictionary<values=string, indices=int32, ordered=0>
+col_5: dictionary<values=string, indices=int32, ordered=0>
+col_6: dictionary<values=string, indices=int8, ordered=0>
+col_7: dictionary<values=string, indices=int32, ordered=0>
+-- schema metadata --
+pandas: '{"index_columns": [], "column_indexes": [], "columns": [{"name":' + 1282
+2025-04-15 14:59:25,300 INFO: 列式存储文件生成: compress\customer.parquet
+2025-04-15 14:59:33,044 INFO: ZSTD压缩完成 - 原始大小: 53967789 bytes, 压缩率: 72.64%
+2025-04-15 14:59:33,054 INFO: 压缩完成: compress\customer.zstd
+2025-04-15 14:59:33,054 INFO: 文件 customer.tbl 压缩耗时: 10.57秒
+2025-04-15 14:59:33,054 INFO: 正在处理文件: part.tbl
+2025-04-15 14:59:33,065 WARNING: 检测到动态列数，尝试修复...
+2025-04-15 14:59:33,065 INFO: 自动切换分隔符为: '|'
+2025-04-15 14:59:33,065 INFO: 检测到稳定列数: 9
+2025-04-15 14:59:33,394 INFO: Parquet schema初始化完成: col_0: dictionary<values=string, indices=int32, ordered=0>
+col_1: dictionary<values=string, indices=int32, ordered=0>
+col_2: dictionary<values=string, indices=int8, ordered=0>
+col_3: dictionary<values=string, indices=int8, ordered=0>
+col_4: dictionary<values=string, indices=int16, ordered=0>
+col_5: dictionary<values=string, indices=int8, ordered=0>
+col_6: dictionary<values=string, indices=int8, ordered=0>
+col_7: dictionary<values=string, indices=int16, ordered=0>
+col_8: dictionary<values=string, indices=int32, ordered=0>
+-- schema metadata --
+pandas: '{"index_columns": [], "column_indexes": [], "columns": [{"name":' + 1423
+2025-04-15 14:59:35,629 INFO: 列式存储文件生成: compress\part.parquet
+2025-04-15 14:59:45,167 INFO: ZSTD压缩完成 - 原始大小: 29614285 bytes, 压缩率: 75.37%
+2025-04-15 14:59:45,173 INFO: 压缩完成: compress\part.zstd
+2025-04-15 14:59:45,173 INFO: 文件 part.tbl 压缩耗时: 12.12秒
+2025-04-15 14:59:45,173 INFO: 正在处理文件: partsupp.tbl
+2025-04-15 14:59:45,175 WARNING: 检测到动态列数，尝试修复...
+2025-04-15 14:59:45,175 INFO: 自动切换分隔符为: '|'
+2025-04-15 14:59:45,175 INFO: 检测到稳定列数: 5
+2025-04-15 14:59:45,473 INFO: Parquet schema初始化完成: col_0: dictionary<values=string, indices=int16, ordered=0>
+col_1: dictionary<values=string, indices=int16, ordered=0>
+col_2: dictionary<values=string, indices=int16, ordered=0>
+col_3: dictionary<values=string, indices=int32, ordered=0>
+col_4: dictionary<values=string, indices=int32, ordered=0>
+-- schema metadata --
+pandas: '{"index_columns": [], "column_indexes": [], "columns": [{"name":' + 834
+2025-04-15 14:59:54,713 INFO: 列式存储文件生成: compress\partsupp.parquet
+2025-04-15 15:00:13,671 INFO: ZSTD压缩完成 - 原始大小: 243351656 bytes, 压缩率: 82.61%
+2025-04-15 15:00:13,710 INFO: 压缩完成: compress\partsupp.zstd
+2025-04-15 15:00:13,710 INFO: 文件 partsupp.tbl 压缩耗时: 28.54秒
+2025-04-15 15:00:13,710 INFO: 正在处理文件: region.tbl
+2025-04-15 15:00:13,711 INFO: 自动切换分隔符为: '|'
+2025-04-15 15:00:13,711 INFO: 检测到稳定列数: 3
+2025-04-15 15:00:13,716 INFO: Parquet schema初始化完成: col_0: dictionary<values=string, indices=int8, ordered=0>
+col_1: dictionary<values=string, indices=int8, ordered=0>
+col_2: dictionary<values=string, indices=int8, ordered=0>
+-- schema metadata --
+pandas: '{"index_columns": [], "column_indexes": [], "columns": [{"name":' + 516
+2025-04-15 15:00:13,716 INFO: 列式存储文件生成: compress\region.parquet
+2025-04-15 15:00:14,408 INFO: ZSTD压缩完成 - 原始大小: 3127 bytes, 压缩率: 60.47%
+2025-04-15 15:00:14,411 INFO: 压缩完成: compress\region.zstd
+2025-04-15 15:00:14,411 INFO: 文件 region.tbl 压缩耗时: 0.70秒
+2025-04-15 15:00:14,411 INFO: 正在处理文件: supplier.tbl
+2025-04-15 15:00:14,422 WARNING: 检测到动态列数，尝试修复...
+2025-04-15 15:00:14,422 INFO: 自动切换分隔符为: '|'
+2025-04-15 15:00:14,422 INFO: 检测到稳定列数: 7
+2025-04-15 15:00:14,720 INFO: Parquet schema初始化完成: col_0: dictionary<values=string, indices=int16, ordered=0>
+col_1: dictionary<values=string, indices=int16, ordered=0>
+col_2: dictionary<values=string, indices=int16, ordered=0>
+col_3: dictionary<values=string, indices=int8, ordered=0>
+col_4: dictionary<values=string, indices=int16, ordered=0>
+col_5: dictionary<values=string, indices=int16, ordered=0>
+col_6: dictionary<values=string, indices=int16, ordered=0>
+-- schema metadata --
+pandas: '{"index_columns": [], "column_indexes": [], "columns": [{"name":' + 1135
+2025-04-15 15:00:16,800 ERROR: 列式转换失败: Expected 7 fields in line 440011, saw 13
+2025-04-15 15:00:18,457 INFO: ZSTD压缩完成 - 原始大小: 29673088 bytes, 压缩率: 91.91%
+2025-04-15 15:00:18,464 INFO: 压缩完成: compress\supplier.zstd
+2025-04-15 15:00:18,464 INFO: 文件 supplier.tbl 压缩耗时: 4.05秒
+2025-04-15 15:00:18,464 INFO: 压缩流程总耗时: 55.98秒
+2025-04-15 15:00:18,464 INFO: ====== 开始解压流程 ======
+2025-04-15 15:00:18,543 INFO: 解压完成: compress\customer.zstd -> compress\customer.parquet
+2025-04-15 15:00:19,804 INFO: 成功转换 Parquet 到文本: decompress\customer.tbl
+2025-04-15 15:00:19,812 INFO: 解压完成: decompress\customer.tbl
+2025-04-15 15:00:19,857 INFO: 解压完成: compress\part.zstd -> compress\part.parquet
+2025-04-15 15:00:20,961 INFO: 成功转换 Parquet 到文本: decompress\part.tbl
+2025-04-15 15:00:20,966 INFO: 解压完成: decompress\part.tbl
+2025-04-15 15:00:21,259 INFO: 解压完成: compress\partsupp.zstd -> compress\partsupp.parquet
+2025-04-15 15:00:25,807 INFO: 成功转换 Parquet 到文本: decompress\partsupp.tbl
+2025-04-15 15:00:25,828 INFO: 解压完成: decompress\partsupp.tbl
+2025-04-15 15:00:25,828 INFO: 解压完成: compress\region.zstd -> compress\region.parquet
+2025-04-15 15:00:25,830 INFO: 成功转换 Parquet 到文本: decompress\region.tbl
+2025-04-15 15:00:25,831 INFO: 解压完成: decompress\region.tbl
+2025-04-15 15:00:25,852 INFO: 解压完成: compress\supplier.zstd -> compress\supplier.parquet
+2025-04-15 15:00:27,181 INFO: 成功转换 Parquet 到文本: decompress\supplier.tbl
+2025-04-15 15:00:27,184 INFO: 解压完成: decompress\supplier.tbl
+2025-04-15 15:03:12,126 INFO: ====== 开始压缩流程 ======
+2025-04-15 15:03:12,126 INFO: 正在处理文件: customer.tbl
+2025-04-15 15:03:12,127 WARNING: 检测到动态列数，尝试修复...
+2025-04-15 15:03:12,127 INFO: 自动切换分隔符为: '|'
+2025-04-15 15:03:12,127 INFO: 检测到稳定列数: 8
+2025-04-15 15:03:12,632 INFO: Parquet schema初始化完成: col_0: dictionary<values=string, indices=int32, ordered=0>
+col_1: dictionary<values=string, indices=int32, ordered=0>
+col_2: dictionary<values=string, indices=int32, ordered=0>
+col_3: dictionary<values=string, indices=int8, ordered=0>
+col_4: dictionary<values=string, indices=int32, ordered=0>
+col_5: dictionary<values=string, indices=int32, ordered=0>
+col_6: dictionary<values=string, indices=int8, ordered=0>
+col_7: dictionary<values=string, indices=int32, ordered=0>
+-- schema metadata --
+pandas: '{"index_columns": [], "column_indexes": [], "columns": [{"name":' + 1282
+2025-04-15 15:03:14,912 INFO: 列式存储文件生成: compress\customer.parquet
+2025-04-15 15:03:22,381 INFO: ZSTD压缩完成 - 原始大小: 53967789 bytes, 压缩率: 72.64%
+2025-04-15 15:03:22,391 INFO: 压缩完成: compress\customer.zstd
+2025-04-15 15:03:22,391 INFO: 文件 customer.tbl 压缩耗时: 10.27秒
+2025-04-15 15:03:22,391 INFO: 正在处理文件: part.tbl
+2025-04-15 15:03:22,402 WARNING: 检测到动态列数，尝试修复...
+2025-04-15 15:03:22,402 INFO: 自动切换分隔符为: '|'
+2025-04-15 15:03:22,402 INFO: 检测到稳定列数: 9
+2025-04-15 15:03:22,738 INFO: Parquet schema初始化完成: col_0: dictionary<values=string, indices=int32, ordered=0>
+col_1: dictionary<values=string, indices=int32, ordered=0>
+col_2: dictionary<values=string, indices=int8, ordered=0>
+col_3: dictionary<values=string, indices=int8, ordered=0>
+col_4: dictionary<values=string, indices=int16, ordered=0>
+col_5: dictionary<values=string, indices=int8, ordered=0>
+col_6: dictionary<values=string, indices=int8, ordered=0>
+col_7: dictionary<values=string, indices=int16, ordered=0>
+col_8: dictionary<values=string, indices=int32, ordered=0>
+-- schema metadata --
+pandas: '{"index_columns": [], "column_indexes": [], "columns": [{"name":' + 1423
+2025-04-15 15:03:24,985 INFO: 列式存储文件生成: compress\part.parquet
+2025-04-15 15:03:34,598 INFO: ZSTD压缩完成 - 原始大小: 29614285 bytes, 压缩率: 75.37%
+2025-04-15 15:03:34,604 INFO: 压缩完成: compress\part.zstd
+2025-04-15 15:03:34,604 INFO: 文件 part.tbl 压缩耗时: 12.21秒
+2025-04-15 15:03:34,604 INFO: 正在处理文件: partsupp.tbl
+2025-04-15 15:03:34,604 WARNING: 检测到动态列数，尝试修复...
+2025-04-15 15:03:34,604 INFO: 自动切换分隔符为: '|'
+2025-04-15 15:03:34,604 INFO: 检测到稳定列数: 5
+2025-04-15 15:03:34,926 INFO: Parquet schema初始化完成: col_0: dictionary<values=string, indices=int16, ordered=0>
+col_1: dictionary<values=string, indices=int16, ordered=0>
+col_2: dictionary<values=string, indices=int16, ordered=0>
+col_3: dictionary<values=string, indices=int32, ordered=0>
+col_4: dictionary<values=string, indices=int32, ordered=0>
+-- schema metadata --
+pandas: '{"index_columns": [], "column_indexes": [], "columns": [{"name":' + 834
+2025-04-15 15:03:43,757 INFO: 列式存储文件生成: compress\partsupp.parquet
+2025-04-15 15:04:01,471 INFO: ZSTD压缩完成 - 原始大小: 243351656 bytes, 压缩率: 82.61%
+2025-04-15 15:04:01,512 INFO: 压缩完成: compress\partsupp.zstd
+2025-04-15 15:04:01,513 INFO: 文件 partsupp.tbl 压缩耗时: 26.91秒
+2025-04-15 15:04:01,513 INFO: 正在处理文件: region.tbl
+2025-04-15 15:04:01,513 INFO: 自动切换分隔符为: '|'
+2025-04-15 15:04:01,513 INFO: 检测到稳定列数: 3
+2025-04-15 15:04:01,516 INFO: Parquet schema初始化完成: col_0: dictionary<values=string, indices=int8, ordered=0>
+col_1: dictionary<values=string, indices=int8, ordered=0>
+col_2: dictionary<values=string, indices=int8, ordered=0>
+-- schema metadata --
+pandas: '{"index_columns": [], "column_indexes": [], "columns": [{"name":' + 516
+2025-04-15 15:04:01,516 INFO: 列式存储文件生成: compress\region.parquet
+2025-04-15 15:04:02,223 INFO: ZSTD压缩完成 - 原始大小: 3127 bytes, 压缩率: 60.47%
+2025-04-15 15:04:02,226 INFO: 压缩完成: compress\region.zstd
+2025-04-15 15:04:02,226 INFO: 文件 region.tbl 压缩耗时: 0.71秒
+2025-04-15 15:04:02,226 INFO: 正在处理文件: supplier.tbl
+2025-04-15 15:04:02,228 WARNING: 检测到动态列数，尝试修复...
+2025-04-15 15:04:02,228 INFO: 自动切换分隔符为: '|'
+2025-04-15 15:04:02,228 INFO: 检测到稳定列数: 7
+2025-04-15 15:04:02,527 INFO: Parquet schema初始化完成: col_0: dictionary<values=string, indices=int16, ordered=0>
+col_1: dictionary<values=string, indices=int16, ordered=0>
+col_2: dictionary<values=string, indices=int16, ordered=0>
+col_3: dictionary<values=string, indices=int8, ordered=0>
+col_4: dictionary<values=string, indices=int16, ordered=0>
+col_5: dictionary<values=string, indices=int16, ordered=0>
+col_6: dictionary<values=string, indices=int16, ordered=0>
+-- schema metadata --
+pandas: '{"index_columns": [], "column_indexes": [], "columns": [{"name":' + 1135
+2025-04-15 15:04:04,630 ERROR: 列式转换失败: Expected 7 fields in line 440011, saw 13
+2025-04-15 15:04:06,338 INFO: ZSTD压缩完成 - 原始大小: 29673088 bytes, 压缩率: 91.91%
+2025-04-15 15:04:06,345 INFO: 压缩完成: compress\supplier.zstd
+2025-04-15 15:04:06,345 INFO: 文件 supplier.tbl 压缩耗时: 4.12秒
+2025-04-15 15:04:06,345 INFO: 压缩流程总耗时: 54.22秒
+2025-04-15 15:04:06,345 INFO: ====== 开始解压流程 ======
+2025-04-15 15:04:06,425 INFO: 解压完成: compress\customer.zstd -> compress\customer.parquet
+2025-04-15 15:04:07,665 INFO: 成功转换 Parquet 到文本: decompress\customer.tbl
+2025-04-15 15:04:07,673 INFO: 解压完成: decompress\customer.tbl
+2025-04-15 15:04:07,719 INFO: 解压完成: compress\part.zstd -> compress\part.parquet
+2025-04-15 15:04:08,815 INFO: 成功转换 Parquet 到文本: decompress\part.tbl
+2025-04-15 15:04:08,819 INFO: 解压完成: decompress\part.tbl
+2025-04-15 15:04:09,114 INFO: 解压完成: compress\partsupp.zstd -> compress\partsupp.parquet
+2025-04-15 15:04:13,571 INFO: 成功转换 Parquet 到文本: decompress\partsupp.tbl
+2025-04-15 15:04:13,590 INFO: 解压完成: decompress\partsupp.tbl
+2025-04-15 15:04:13,591 INFO: 解压完成: compress\region.zstd -> compress\region.parquet
+2025-04-15 15:04:13,593 INFO: 成功转换 Parquet 到文本: decompress\region.tbl
+2025-04-15 15:04:13,594 INFO: 解压完成: decompress\region.tbl
+2025-04-15 15:04:13,617 INFO: 解压完成: compress\supplier.zstd -> compress\supplier.parquet
+2025-04-15 15:04:14,896 INFO: 成功转换 Parquet 到文本: decompress\supplier.tbl
+2025-04-15 15:04:14,900 INFO: 解压完成: decompress\supplier.tbl
